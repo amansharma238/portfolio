@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman PortFolio Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <!-- <script src="https://use.fontawesome.com/ee32512673.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" /> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color:rgb(9, 30, 43) ; color: aliceblue;">
+    <header>
+        <div class="logo">
+
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Aman Sharma</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img class="intro__img" src="/images/man.jpg" alt="A picture of Aman Sharma">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Programming</h3>
+                <p>
+                    I have a good amount of knowledge on programming and it’s concepts. I have been learning
+                    C,C++,Python and
+                    solve programming problems on various online platforms. I really enjoy solving programming problems
+                    related to competition.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Databases</h3>
+                <p>
+                    In Databases I worked with RDBMS and mySQL. Know how to use it with php and python I made a website
+                    using python, Django and mySQL.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Wrodpress</h3>
+                <p>
+                    I have a basic knowledge about wordpress, I know how to work with plugins and I also have great
+                    knowledge of wordpress security
+                </p>
+            </div>
+
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Coder & Hacker Based out of NYC</p>
+
+        <div class="about-me__body">
+            <p>I'm Aman Sharma. Currently doing undergraduate program in Computer Science and Engineering at UIET,
+                Panjab University. I am interested in Competitive Coding and Currently Doing practice on Codechef and
+                codeforces. I Enjoy Playing football
+                programming and Ethical. I have also created some projects on Web Development and Ethical Hacking.
+            </p>
+        </div>
+
+        <img src="/images/handsome-business-man-working-computer-drinking-coffee-cafe_1303-13947.jpg"
+            alt="Working on laptop" class="about-me__img">
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Projects</h2>
+        <p class="section__subtitle">A Selection of My range Work</p>
+
+        <div class="portfolio">
+            <!--Portfolio item 01-->
+            <a href="#" class="portfolio__item">
+                <img src="/images/snake.jpg" alt="hh" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 02-->
+            <a href="#" class="portfolio__item">
+                <img src="/images/todolist-project-bluelime.png" alt="hh" class="portfolio__img" height="203px"
+                    width="400px">
+            </a>
+
+            <!--Portfolio item 03-->
+            <a href="#" class="portfolio__item">
+                <img src="/images/download.jfif" alt="Clock" class="portfolio__img">
+            </a>
+            <!--Portfolio item 04-->
+            <a href="#" class="portfolio__item">
+                <img src="/images/Build-a-Quiz-App-with-HTML-CSS-and-JavaScript-Free-Course.jpg" alt="Quiz"
+                    class="portfolio__img">
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="footers" id="contact">
+        <a href="mailto:amansharmash238@gmail.com" class="footer__link">amansharmash238@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/aman-sharma-3316101b0">
+                    <i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/amansharma238"><i
+                        class="fab fa-github"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="">
+                    <i class="fab fa-twitter-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
